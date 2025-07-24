@@ -4,5 +4,8 @@
 # Jupyter
 *.ipynb_checkpoints
 
+# EGG
+*.egg-info
+
 # Python
 __pycache__
