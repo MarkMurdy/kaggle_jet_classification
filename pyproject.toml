@@ -20,7 +20,8 @@ dependencies = [
 dev = [
     "ipykernel",
     "pre-commit",
-    "ruff"
+    "ruff",
+    { include-group = "test" }
 ]
 test = [
     "pytest>7"
